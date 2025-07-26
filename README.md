@@ -43,27 +43,29 @@
 4.  Запустите проект на симуляторе или реальном устройстве (Cmd + R).
 
 ## Структура проекта
-•   App/
-    •   ShoppingCartApp, AppDI: Точка входа и инициализация зависимостей.
-•   Data/
-    •   ApiService, CartItem, CartRepository: Работа с API и хранение данных корзины.
-•   Domain/
-    •   UseCases/: Бизнес-логика (Get/Update/Delete Cart, Send Order).
-•   Presentation/
-    •   UI/: SwiftUI-экран корзины, отдельные компоненты (товары, кнопки, счетчики).
-    •   ViewModel/CartViewModel: Управление состоянием UI и бизнес-логикой.
-•   Resources/
-    •   Assets, ContentView, README: ресурсы и документация.
-•   shoppingcart-iosTests/
-    •   Unit-тесты бизнес-логики.
-•   shoppingcart-iosUITests/
-    •   UI-тесты для пользовательских сценариев.
+
+- **App/**
+  - `ShoppingCartApp`, `AppDI`: Точка входа и инициализация зависимостей.
+- **Data/**
+  - `ApiService`, `CartItem`, `CartRepository`: Работа с API и хранение данных корзины.
+- **Domain/**
+  - `UseCases/`: Бизнес-логика (Get/Update/Delete Cart, Send Order).
+- **Presentation/**
+  - `UI/`: SwiftUI-экран корзины, отдельные компоненты (товары, кнопки, счетчики).
+  - `ViewModel/CartViewModel`: Управление состоянием UI и бизнес-логикой.
+- **Resources/**
+  - `Assets`, `ContentView`, `README`: ресурсы и документация.
+- **shoppingcart-iosTests/**
+  - Unit-тесты бизнес-логики.
+- **shoppingcart-iosUITests/**
+  - UI-тесты для пользовательских сценариев.
 
 ## Тестирование
 
 Для запуска тестов в Xcode:
-•   Выберите схему shoppingcart-ios.
-•   Нажмите Cmd + U или выберите меню Product > Test.
+
+- Выберите схему `shoppingcart-ios`.
+- Нажмите **Cmd + U** или выберите в меню **Product > Test**.
 
 ## API Интеграция
 
@@ -75,8 +77,7 @@ POST /api/send-test-order
 
 ## Особенности реализации
 
-•   Декомпозиция на слои (Data, Domain, Presentation) для удобной поддержки и масштабирования.
-•   Декларативный UI: Все экраны и компоненты написаны на SwiftUI.
-•   Тестируемость: Каждый слой изолирован и покрыт тестами.
-•   Уникальные accessibilityIdentifier для всех интерактивных элементов, что облегчает автоматизацию UI-тестов.
-
+- **Декомпозиция на слои (`Data`, `Domain`, `Presentation`)** для удобной поддержки и масштабирования.
+- **Декларативный UI:** Все экраны и компоненты написаны на SwiftUI.
+- **Тестируемость:** Каждый слой изолирован и покрыт тестами.
+- **Уникальные `accessibilityIdentifier`** для всех интерактивных элементов, что облегчает автоматизацию UI-тестов.
