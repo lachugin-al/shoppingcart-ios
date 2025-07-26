@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D1F3E4232E3522E600D8777D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1F3E4112E3522E600D8777D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D120CBC42E3281C40022B9A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D120CBB62E3281C30022B9A3 /* shoppingcart-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shoppingcart-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D120CBC32E3281C40022B9A3 /* shoppingcart-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shoppingcart-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D120CBCD2E3281C40022B9A3 /* shoppingcart-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shoppingcart-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F3E4112E3522E600D8777D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				D120CBC62E3281C40022B9A3 /* shoppingcart-iosTests */,
 				D120CBD02E3281C40022B9A3 /* shoppingcart-iosUITests */,
 				D120CBB72E3281C30022B9A3 /* Products */,
+				D1F3E4112E3522E600D8777D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F3E4232E3522E600D8777D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
